@@ -7,14 +7,15 @@ function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>React Avançado - Boilerplate</title>
+        <title>Reuniôes Barcelos Leite</title>
+        <meta property="og:image" content="/img/favicon.ico"></meta>
         <link rel="shortcut icon" href="/img/favicon.ico" />
         <link rel="apple-touch-icon" href="/img/favicon.ico" />
         <link rel="manifest" href="/manifest.json" />
         <meta name="theme-color" content="#4a6da7" />
         <meta
           name="description"
-          content="A simple project starter to work with TypeScript, React, NextJS and Styled Components"
+          content="Links para reuniões e saida de campo pelo zoom"
         />
       </Head>
       <GlobalStyles />
