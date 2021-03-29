@@ -1,16 +1,44 @@
 import styled from 'styled-components'
 
 export const Wrapper = styled.main`
-  background-color: #06092b;
+  background-color: #fff;
   color: #fff;
   width: 100%;
   height: 100%;
-  padding: 3rem;
+  /* padding: 3rem; */
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+`
+
+export const Button = styled.a`
+  background-color: #4a6da7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  width: 80%;
+  height: 70px;
+  max-width: 1000px;
+  cursor: pointer;
+  transition: 200ms;
+  color: #fff;
+  text-decoration: none;
+
+  :hover {
+    transition: 200ms;
+    background-color: #3a5684;
+  }
+
+  @media (max-width: 500px) {
+    width: 95%;
+  }
+
+  /* @media (max-width: 400px) {
+    width: 100%;
+  } */
 `
 
 export const Logo = styled.img`

@@ -5,16 +5,17 @@ const Main = ({
   description = 'TypeScript, ReactJS, NextJS e Styled Components'
 }) => (
   <S.Wrapper>
-    <S.Logo
-      src="/img/logo.svg"
-      alt="Imagem de um átomo e React Avançado escrito ao lado."
-    />
-    <S.Title>{title}</S.Title>
-    <S.Description>{description}</S.Description>
-    <S.Illustration
-      src="/img/hero-illustration.svg"
-      alt="Um desenvolvedor de frente para uma tela com código."
-    />
+    <S.Button href="https://jworg.zoom.us/j/82927076734?pwd=bFQ3M0tuaFVHMzZUUmVGV1VnSFpHQT09">
+      Reunião Congregacional
+    </S.Button>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <S.Button href="https://jworg.zoom.us/j/88691832848?pwd=MTRncUN3WWs5Vm93bTREeHBvSG55UT09">
+      Saída de Campo
+    </S.Button>
   </S.Wrapper>
 )
 
