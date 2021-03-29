@@ -3,12 +3,12 @@
   "short_name": "Reuniões Barcelos Leite",
   "icons": [
     {
-      "src": "/img/favicon.ico",
+      "src": "/img/favicon.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "/img/favicon.ico",
+      "src": "/img/favicon.png",
       "type": "image/png",
       "sizes": "512x512"
     }
